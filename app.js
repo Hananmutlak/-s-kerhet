@@ -58,3 +58,10 @@ app.get('/protected', authenticateToken, async (req, res) => {
 app.listen(process.env.PORT, () => {
   console.log(`Server running on port ${process.env.PORT}`);
 });
+app.get('/', (req, res) => {
+  res.send('API is running. welcome to the API');
+});
+
+app.listen(process.env.PORT, () => {
+  console.log(`Server running on port ${process.env.PORT}`);
+});
