@@ -40,5 +40,11 @@ Detta är en RESTful webbtjänst byggd med Node.js, Express och SQLite3. Webbtj�
 -LÖSENORD HASHADE MED BCRYPTJS
 -cors aktiv till kommuniktion med fronted
 -jwt använda för hantering
+## för APL
+-Skapa nytt konto   register   post 
+-logga in och ha jwt   login   post 
+-skydda route          protected  get
+
+
 ## webbtänsten är 
 https://s-kerhet.onrender.com/
